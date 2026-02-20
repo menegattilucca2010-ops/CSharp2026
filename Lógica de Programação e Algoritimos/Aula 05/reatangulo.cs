@@ -1,0 +1,15 @@
+using static System.Console;
+double Base, Altura, Area, Perimetro, Diagonal, Raiz;
+Write("Digite a base do retangulo: ");
+Base = double.Parse(ReadLine());
+Write("Digite a Altura do retangulo: ");
+Altura = double.Parse(ReadLine());
+Area = Base * Altura;
+Perimetro = 2 * (Base + Altura);
+Diagonal = Base * Base + Altura * Altura;
+Raiz = Math.Sqrt(Area);
+WriteLine($" o valor da area do retangulo: {Area}");
+WriteLine($" o valor do perimetro do retangulo: {Perimetro}");
+WriteLine($" o valor da diagonal do retangunlo: {Diagonal}");
+WriteLine($" o valor da raiz do retangulo: {Raiz}");
+WriteLine($" o valor da area é de {Area}, o valor do perimetro é de {Perimetro}, o valor da diagonal é de {Diagonal} e o valor da Raiz é de {Raiz}");

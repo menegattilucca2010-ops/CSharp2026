@@ -9,7 +9,7 @@ comprimento = double.Parse(ReadLine());
 WriteLine("Digite o valor do metro quadrado do terreno: ");
 valor = double.Parse(ReadLine());
 //processamento de daodos
-area= largura * comprimento;
+area = largura * comprimento;
 preco = area *  valor;
 //saida de dados
 WriteLine($" A area do terreno é de {area} e o preço do terreno é de R${preco}");
