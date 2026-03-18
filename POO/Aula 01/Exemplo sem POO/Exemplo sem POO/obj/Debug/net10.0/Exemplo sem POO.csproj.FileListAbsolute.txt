@@ -1,0 +1,15 @@
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 01\Exemplo sem POO\Exemplo sem POO\bin\Debug\net10.0\Exemplo sem POO.exe
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 01\Exemplo sem POO\Exemplo sem POO\bin\Debug\net10.0\Exemplo sem POO.deps.json
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 01\Exemplo sem POO\Exemplo sem POO\bin\Debug\net10.0\Exemplo sem POO.runtimeconfig.json
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 01\Exemplo sem POO\Exemplo sem POO\bin\Debug\net10.0\Exemplo sem POO.dll
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 01\Exemplo sem POO\Exemplo sem POO\bin\Debug\net10.0\Exemplo sem POO.pdb
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 01\Exemplo sem POO\Exemplo sem POO\obj\Debug\net10.0\Exemplo sem POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 01\Exemplo sem POO\Exemplo sem POO\obj\Debug\net10.0\Exemplo sem POO.AssemblyInfoInputs.cache
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 01\Exemplo sem POO\Exemplo sem POO\obj\Debug\net10.0\Exemplo sem POO.AssemblyInfo.cs
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 01\Exemplo sem POO\Exemplo sem POO\obj\Debug\net10.0\Exemplo sem POO.csproj.CoreCompileInputs.cache
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 01\Exemplo sem POO\Exemplo sem POO\obj\Debug\net10.0\Exemplo sem POO.sourcelink.json
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 01\Exemplo sem POO\Exemplo sem POO\obj\Debug\net10.0\Exemplo sem POO.dll
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 01\Exemplo sem POO\Exemplo sem POO\obj\Debug\net10.0\refint\Exemplo sem POO.dll
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 01\Exemplo sem POO\Exemplo sem POO\obj\Debug\net10.0\Exemplo sem POO.pdb
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 01\Exemplo sem POO\Exemplo sem POO\obj\Debug\net10.0\Exemplo sem POO.genruntimeconfig.cache
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 01\Exemplo sem POO\Exemplo sem POO\obj\Debug\net10.0\ref\Exemplo sem POO.dll
