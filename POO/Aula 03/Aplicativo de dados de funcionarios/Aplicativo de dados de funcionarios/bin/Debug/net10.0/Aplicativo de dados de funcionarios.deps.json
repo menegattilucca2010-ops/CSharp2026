@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Aplicativo de dados de funcionarios/1.0.0": {
+        "runtime": {
+          "Aplicativo de dados de funcionarios.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Aplicativo de dados de funcionarios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

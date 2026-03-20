@@ -1,0 +1,15 @@
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 03\Notas do aluno\Notas do aluno\bin\Debug\net10.0\Notas do aluno.exe
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 03\Notas do aluno\Notas do aluno\bin\Debug\net10.0\Notas do aluno.deps.json
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 03\Notas do aluno\Notas do aluno\bin\Debug\net10.0\Notas do aluno.runtimeconfig.json
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 03\Notas do aluno\Notas do aluno\bin\Debug\net10.0\Notas do aluno.dll
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 03\Notas do aluno\Notas do aluno\bin\Debug\net10.0\Notas do aluno.pdb
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 03\Notas do aluno\Notas do aluno\obj\Debug\net10.0\Notas do aluno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 03\Notas do aluno\Notas do aluno\obj\Debug\net10.0\Notas do aluno.AssemblyInfoInputs.cache
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 03\Notas do aluno\Notas do aluno\obj\Debug\net10.0\Notas do aluno.AssemblyInfo.cs
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 03\Notas do aluno\Notas do aluno\obj\Debug\net10.0\Notas do aluno.csproj.CoreCompileInputs.cache
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 03\Notas do aluno\Notas do aluno\obj\Debug\net10.0\Notas do aluno.sourcelink.json
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 03\Notas do aluno\Notas do aluno\obj\Debug\net10.0\Notas do aluno.dll
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 03\Notas do aluno\Notas do aluno\obj\Debug\net10.0\refint\Notas do aluno.dll
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 03\Notas do aluno\Notas do aluno\obj\Debug\net10.0\Notas do aluno.pdb
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 03\Notas do aluno\Notas do aluno\obj\Debug\net10.0\Notas do aluno.genruntimeconfig.cache
+C:\Users\FIC\Documents\Nova pasta\C#2026\CSharp2026\POO\Aula 03\Notas do aluno\Notas do aluno\obj\Debug\net10.0\ref\Notas do aluno.dll
