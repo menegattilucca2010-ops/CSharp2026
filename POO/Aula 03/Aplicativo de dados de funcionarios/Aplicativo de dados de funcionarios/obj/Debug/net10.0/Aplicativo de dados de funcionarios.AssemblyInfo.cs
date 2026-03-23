@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aplicativo de dados de funcionarios")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+756c1b7fe4e0a5246f2bde2be556bee7e5808856")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94845da4b938a6cce2773535be48b41441153f41")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aplicativo de dados de funcionarios")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aplicativo de dados de funcionarios")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

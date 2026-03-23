@@ -15,5 +15,5 @@ if (x.NotaFinal() < 60)
 }
 
 WriteLine($"Nota final do aluno: {x.NotaFinal()}");
-WriteLine(x.AprovadoOuReprovado()?"Aprovado":"Reprovado");
+WriteLine(x.AprovadoOuReprovado()? "Reprovado":"Aprovado");
 WriteLine($"{x.QuantoFaltou()} pontos");

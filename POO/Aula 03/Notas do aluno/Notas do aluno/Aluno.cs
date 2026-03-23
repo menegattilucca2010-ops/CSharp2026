@@ -1,6 +1,4 @@
-﻿using System.Reflection.Metadata.Ecma335;
-
-namespace Notas_do_aluno
+﻿namespace Notas_do_aluno
 {
     internal class Aluno
     {
