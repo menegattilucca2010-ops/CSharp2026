@@ -2,14 +2,31 @@
 {
     internal class ContaParaEmpresa : Conta
     {
-        private double limiteDeEmprestimo;
+        private double limite;
 
-		public double 
+		public double LimiteDeEmprestimo
 		{
-			get { return limiteDeEmprestimo; }
-			set { limiteDeEmprestimo = value; }
+			get { return limite; }
+			set { limite = value; }
 		}
 
+        public ContaParaEmpresa(int numeroConta, string titularConta, double limite) 
+            : base(numeroConta, titularConta)
+        {
+            LimiteDeEmprestimo = limite;
+        }
 
-	}
+        public ContaParaEmpresa(int numeroConta, string titularConta, double saldoConta, double limite) 
+            : base(numeroConta, titularConta, saldoConta)
+        {
+            LimiteDeEmprestimo = limite;
+        }
+
+        public void Emprestimo( double quantia)
+        {
+            LimiteDeEmprestimo -= quantia;
+            SaldoConta += quantia;
+        }
+
+    }
 }
