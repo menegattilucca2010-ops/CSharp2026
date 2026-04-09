@@ -35,9 +35,10 @@ for (int i = 0; i < n; i++)
         colaboradores.Add(new Funcionario(nome, h, v));
     }
 
-    WriteLine("-Pagamento-");
-    foreach (var colab in colaboradores)
-    {
-        colaboradores[colab].ToString();
-    }
+}
+
+WriteLine("-Pagamento-");
+foreach (var colab in colaboradores)
+{
+    WriteLine(colab.ToString());
 }
