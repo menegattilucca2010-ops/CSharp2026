@@ -28,6 +28,10 @@
                 return RendaAnual * 0.16;
             }
         }
-	}
+        public override string ToString()
+        {
+            return $"O imposto pago é de {Imposto}";
+        }
+    }
 }
 	

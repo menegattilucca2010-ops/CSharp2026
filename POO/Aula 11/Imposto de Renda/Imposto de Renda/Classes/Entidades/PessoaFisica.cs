@@ -34,7 +34,12 @@
 
             return Imposto();
         }
+
+        public override string ToString()
+        {
+            return $"O imposto pago é de {Imposto}";
+        }
     }
 
 }
-}
+
