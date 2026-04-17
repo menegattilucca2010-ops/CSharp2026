@@ -108,5 +108,19 @@ namespace SistemaBancario.Classes.Entidades
             Saldo -= (valor + taxaSaque);
             Console.WriteLine($"Saque de {valor:C} realizado com sucesso! Taxa de {taxaSaque:C} cobrada.");
         }
+
+        ///<summary>
+        ///Exibe os dados da conta no console
+        ///Mostra número da conta, titular e saldo atual
+        /// </summary>
+
+        public void ExibirDados()
+        {
+            Console.WriteLine("\n---Dados da conta---");
+            Console.WriteLine($"Conta: {NumeroConta}");
+            Console.WriteLine($"Titular: {Titular}");
+            Console.WriteLine($"Saldo: {Saldo:C}");
+            Console.WriteLine("--------------------\n");
+        }
     }
 }
