@@ -13,7 +13,7 @@ namespace SistemaBancario.Classes.Entidades
         ///Taxa fixa cobrada em cada operação de saque
         /// </summary>
 
-        private const double taxaSaque = 5.00;
+        private const decimal taxaSaque = 5.00m;
 
 
         //Propriedades
@@ -43,7 +43,7 @@ namespace SistemaBancario.Classes.Entidades
         ///'private set' impede alteração direta - só pode mudar através de Deposito ou Saque
         /// </summary>
         
-        public double Saldo {get; private set;}
+        public decimal Saldo {get; private set;}
 
         //Construtores
         /// <summary>
@@ -63,7 +63,7 @@ namespace SistemaBancario.Classes.Entidades
         /// <param name="titular">Nome do titular da conta</param>
         /// <param name="saldo">Valor do depósito inicial (opcional, padrão = 0)</param>
         
-        public Banco(int numeroConta, string titular, double saldo = 0)
+        public Banco(int numeroConta, string titular, decimal saldo = 0)
         {
             NumeroConta = numeroConta;
             Titular = titular;
@@ -76,7 +76,7 @@ namespace SistemaBancario.Classes.Entidades
         /// </summary>
         /// <param name="valor">Valor a ser depositado, deve ser positivo</param>
 
-        public void Deposito(double valor)
+        public void Deposito(decimal valor)
         {
             if (valor <= 0)
             {
@@ -96,7 +96,7 @@ namespace SistemaBancario.Classes.Entidades
         /// </summary>
         /// <param name="=valor">Valor a ser sacado(deve ser positivo, não inclui a taxa)</param>
         
-        public void Saque(double valor)
+        public void Saque(decimal valor)
         {
             if (valor <= 0)
             {

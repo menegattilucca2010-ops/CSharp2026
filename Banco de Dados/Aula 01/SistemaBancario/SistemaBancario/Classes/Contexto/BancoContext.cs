@@ -15,11 +15,11 @@ namespace SistemaBancario.Classes.Contextos
         //Métodos
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // Use a file-based SQLite database to avoid LocalDB/SQL Server instance issues
-            // Requires the Microsoft.EntityFrameworkCore.Sqlite package (already referenced in the project)
-            optionsBuilder.UseSqlite("Data Source=BancoDB.db");
+            // Usando SQLServer
+            optionsBuilder.UseSqlServer(
+     @"Server=ECFP507D1319381\SQLEXPRESS;Database=Banco;Trusted_Connection=True;TrustServerCertificate=True;");
         }
-
+         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Banco>(
