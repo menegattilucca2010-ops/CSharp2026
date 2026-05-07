@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Tibia")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoWeb01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f9143bc82060565b2406448f8186f1f3e58ff3e")]
-[assembly: System.Reflection.AssemblyProductAttribute("Tibia")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Tibia")]
+[assembly: System.Reflection.AssemblyProductAttribute("ProjetoWeb01")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ProjetoWeb01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
