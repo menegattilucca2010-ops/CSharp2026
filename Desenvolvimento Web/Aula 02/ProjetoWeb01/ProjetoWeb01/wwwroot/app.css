@@ -176,3 +176,28 @@ h1:focus {
     transition: all 1s ease-in-out;
     scale: 1.1;
 }
+
+.link-cabecalho{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+body{
+    height: 100%;
+}
+
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
