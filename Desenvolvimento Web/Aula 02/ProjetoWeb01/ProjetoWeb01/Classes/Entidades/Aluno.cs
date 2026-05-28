@@ -1,4 +1,5 @@
 ﻿using ProjetoWeb01.Classes.Enumeracoes;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProjetoWeb01.Classes.Entidades
 {
@@ -10,7 +11,7 @@ namespace ProjetoWeb01.Classes.Entidades
 
         public string StatusAction { get; set; } = "Aguardando Aprovação";
 
-        public Cursos CursoID { get; set; }
+        public int CursoID { get; set; }
 
         public TipoRegra Regra { get; set; } = TipoRegra.Usuario;
     }
