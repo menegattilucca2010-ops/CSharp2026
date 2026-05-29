@@ -4,3 +4,12 @@ o seu usuario GIT nao esta logado
 por favor logar
 
 comandos estão no google class room
+
+Remote: Permission to menegattilucca2010-ops/CSharp2026.git denied to maezono00.
+Erro encontrado durante a publicação para o repositório remoto: Git failed with a fatal error.
+unable to access 'https://github.com/menegattilucca2010-ops/CSharp2026/': The requested URL returned error: 403
+
+Falha ao enviar para o repositório remoto. Consulte a janela Saída para obter mais detalhes.
+
+
+Professor César
