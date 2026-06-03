@@ -3,5 +3,6 @@ INSERT INTO Alunos(RA,StatusWIFI,StatusAction,CursoID,Nome,Email,Senha,Regra) VA
 (123456,'Inativo','Aguardando Aprovação',1,'Elma','elma@aluno.senaisp.br','F1c',0),
 (123457,'Inativo','Aguardando Aprovação',2,'Flavio','flavio@aluno.senaisp.br','F1c',0),
 (123458,'Inativo','Aguardando Aprovação',1,'Naruto','naruto@aluno.senaisp.br','F1c',0),
-(123459,'Inativo','Aguardando Aprovação',2,'Zorro','zorro@aluno.senaisp.br','F1c',0);
+(123459,'Inativo','Aguardando Aprovação',2,'Zorro','zorro@aluno.senaisp.br','F1c',0),
+(123455,'Inativo','Aguardando Aprovação',1,'Lucca','lucca@aluno.senaisp.br','F1c',0);
 GO
