@@ -1,54 +1,64 @@
+using AplicativoDesktop01.Classes.DTO;
+using System.Net;
+using System.Net.Http.Json;
+using System.Text.Json;
+
 namespace AplicativoDesktop01
 {
     public partial class TelaLogin : Form
     {
+        private static readonly HttpClient clientHttp = new();
+        private const string urlApiLogin = "http://localhost:5057/api/usuarios/login";
+
         public TelaLogin()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            string usuario = "Ronaldo";
-            string senha = "123456";
-
-            bool comparacao1 = textBox1.Text == usuario;
-            bool comparacao2 = textBox2.Text == senha;
-
-            if (comparacao1 && comparacao2)
+            var dadosLogin = new LoginRequestDTO
             {
-                MessageBox.Show("Usuario e senha corretos!");
-                this.Hide();
-                using(var telaAdm = new TelaAdmin())
+                Email = textBox1.Text.Trim(),
+                Senha = textBox2.Text.Trim(),
+            };
+
+            try
+            {
+                var resposta = await clientHttp.PostAsJsonAsync(urlApiLogin, dadosLogin);
+
+                if(resposta.StatusCode == HttpStatusCode.Unauthorized)
                 {
-                    telaAdm.ShowDialog();
+                    MessageBox.Show("Usuário ou senha incorretos.");
+                }
+                else if (!resposta.IsSuccessStatusCode)
+                {
+                    var mensagemErro = await resposta.Content.ReadAsStringAsync();
+                    MessageBox.Show($"Não foi possivel autenticar. Detalhes {mensagemErro}");
+                    return;
+                }
+
+                var resultado = await resposta.Content.ReadFromJsonAsync<LoginReponseDTO>();
+
+                if(resultado.Regra != 1)
+                {
+                    MessageBox.Show("Acesso Negado. Este usuário não tem privilegio administrativo");
+                    return;
+                }
+
+                MessageBox.Show("Login realizado com sucesso");
+                this.Hide();
+                using(var telaAdmin = new TelaAdmin())
+                {
+                    telaAdmin.ShowDialog();
                 }
                 this.Close();
             }
-            else
+
+            catch (HttpRequestException)
             {
-                MessageBox.Show("Usuario ou senhas incorretos!");
+                MessageBox.Show("Não foi possivel conectar na API");
             }
         }
-
-        private void CX(object sender, EventArgs e)
-        {
-
-        }
-    }
+    }  
 }
