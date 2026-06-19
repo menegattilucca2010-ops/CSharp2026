@@ -28,18 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Button1 = new Button();
+            dgvAlunos = new DataGridView();
             SuspendLayout();
+            // 
+            // Button1
+            // 
+            Button1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Button1.Location = new Point(425, 12);
+            Button1.Name = "Button1";
+            Button1.Size = new Size(155, 40);
+            Button1.TabIndex = 0;
+            Button1.Text = "Aprovar";
+            Button1.UseVisualStyleBackColor = true;
+            Button1.Click += Button1_Click;
+            // 
+            // dgvAlunos
+            // 
+            dgvAlunos.Location = new Point(4, 78);
+            dgvAlunos.Name = "dgvAlunos";
+            dgvAlunos.Size = new Size(968, 360);
+            dgvAlunos.TabIndex = 1;
+            dgvAlunos.AllowUserToAddRows = false;
+            dgvAlunos.AllowUserToDeleteRows = false;
+            dgvAlunos.ReadOnly = true;
+            dgvAlunos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             // 
             // TelaAdmin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = SystemColors.ControlDark;
+            ClientSize = new Size(984, 461);
+            Controls.Add(dgvAlunos);
+            Controls.Add(Button1);
             Name = "TelaAdmin";
-            Text = "Gerenciamento de usúarios";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Controle de Cadastro de Usuarios";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private Button Button1;
+        private DataGridView dgvAlunos;
     }
 }
